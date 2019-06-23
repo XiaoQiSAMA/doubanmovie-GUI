@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f99bce50-93d9-4637-8c63-8dc6cb367752" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/create_new_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spiders(1).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Login_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Login_in.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/mainwindow_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="180">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -33,16 +31,28 @@
         <entry file="file://$PROJECT_DIR$/GUI/movie_info_2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1260">
-              <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+              <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI/mainwindow_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3880">
+              <caret line="206" column="44" selection-start-line="206" selection-start-column="44" selection-end-line="206" selection-end-column="44" />
+              <folding>
+                <element signature="e#197#239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GUI/mainwindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="122" column="33" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
+            <state relative-caret-position="580">
+              <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
               <folding>
                 <element signature="e#197#239#0" expanded="true" />
               </folding>
@@ -54,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/demo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="e#0#90#0" expanded="true" />
               </folding>
@@ -65,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="413">
+              <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
               <folding>
                 <element signature="e#0#90#0" expanded="true" />
               </folding>
@@ -77,25 +87,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI/create_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GUI/Login_in.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-              <folding>
-                <element signature="e#197#239#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="473">
+              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mydb</find>
+      <find>label_2</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,15 +111,15 @@
         <option value="$PROJECT_DIR$/GUI/UI.py" />
         <option value="$PROJECT_DIR$/GUI/create_new_list.py" />
         <option value="$PROJECT_DIR$/spiders(1).py" />
-        <option value="$PROJECT_DIR$/GUI/untitled.py" />
         <option value="$PROJECT_DIR$/GUI/movie_info_dialog.py" />
         <option value="$PROJECT_DIR$/GUI/movie_info_2.py" />
         <option value="$PROJECT_DIR$/demo.py" />
-        <option value="$PROJECT_DIR$/GUI/main.py" />
         <option value="$PROJECT_DIR$/GUI/create_list.py" />
         <option value="$PROJECT_DIR$/demo_2.py" />
-        <option value="$PROJECT_DIR$/GUI/mainwindow.py" />
+        <option value="$PROJECT_DIR$/GUI/main.py" />
         <option value="$PROJECT_DIR$/GUI/Login_in.py" />
+        <option value="$PROJECT_DIR$/GUI/untitled.py" />
+        <option value="$PROJECT_DIR$/GUI/mainwindow.py" />
       </list>
     </option>
   </component>
@@ -130,17 +134,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="61" />
-    <option name="y" value="-28" />
-    <option name="width" value="1195" />
-    <option name="height" value="971" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="59" />
+    <option name="y" value="-30" />
+    <option name="width" value="1198" />
+    <option name="height" value="974" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,11 +162,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="D:/python/python.exe" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -182,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.demo_2">
     <configuration name="Login_in" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Spider_mysql" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,7 +284,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/mainwindow.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\xiaoqi\Documents\Python_Spider_mysql\GUI\mainwindow_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,8 +295,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.demo_2" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.mainwindow" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.Login_in" />
@@ -324,12 +329,12 @@
     <frame x="-7" y="-7" width="1563" height="855" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13032089" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14014408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926686" visible="true" weight="0.29183957" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926686" weight="0.29183957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,6 +373,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GUI/Ui_untitled.py" />
@@ -397,13 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5920">
-          <caret line="309" column="40" lean-forward="true" selection-start-line="309" selection-start-column="40" selection-end-line="309" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GUI/movie_info_dialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
@@ -411,27 +423,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/movie_info_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-287100998/PyQt5/QtCore/pyqtSignal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="38" column="58" lean-forward="true" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,61 +444,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python/Lib/site-packages/pymysql/connections.py">
+    <entry file="file://$PROJECT_DIR$/GUI/Login_in.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/movie_info_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/python/Lib/site-packages/pymysql/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="1640">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo_2.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-287100998/PyQt5/QtWidgets/QWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+        <state relative-caret-position="129">
+          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
-            <element signature="e#0#90#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="490" selection-start-line="490" selection-end-line="490" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3057">
+          <caret line="309" column="40" lean-forward="true" selection-start-line="309" selection-start-column="40" selection-end-line="309" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/create_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="e#0#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/mainwindow.py">
+    <entry file="file://$PROJECT_DIR$/demo_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="122" column="33" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
+        <state relative-caret-position="413">
+          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/mainwindow_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3880">
+          <caret line="206" column="44" selection-start-line="206" selection-start-column="44" selection-end-line="206" selection-end-column="44" />
           <folding>
             <element signature="e#197#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/create_list.py">
+    <entry file="file://$PROJECT_DIR$/GUI/mainwindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/Login_in.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        <state relative-caret-position="580">
+          <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
           <folding>
             <element signature="e#197#239#0" expanded="true" />
           </folding>

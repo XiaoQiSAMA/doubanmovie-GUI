@@ -11,6 +11,8 @@ from PyQt5.QtWidgets import QDialog
 from PyQt5.QtCore import pyqtSignal
 import pymysql
 
+c = globals()
+
 class Login_in_UI(QDialog):
 
     mySingle = pyqtSignal(str)
@@ -58,4 +60,3 @@ class Login_in_UI(QDialog):
         cursor.execute("SELECT VERSION()")
         data = cursor.fetchone()
         self.mySingle.emit(str(data))
-        self.close()

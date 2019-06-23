@@ -7,14 +7,15 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QMainWindow, QLabel, QDialog
+from PyQt5.QtWidgets import QMainWindow, QLabel, QDialog, QScrollBar, QScrollArea, QVBoxLayout
+from PyQt5.QtGui import QPalette, QColor
 from movie_info_2 import movie_info_2
 from create_list import Create_List
 import pymysql
 from PyQt5.QtCore import pyqtSignal
+
 mydb = pymysql.connections.Connection
 print(mydb)
-
 class Ui_Window(QMainWindow):
 
     def __init__(self):
@@ -72,24 +73,23 @@ class Ui_Window(QMainWindow):
         self.verticalLayout.addWidget(self.pushButton_3)
         spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.verticalLayout.addItem(spacerItem)
-        self.verticalLayoutWidget_2 = QtWidgets.QWidget(self.centralwidget)
-        self.verticalLayoutWidget_2.setGeometry(QtCore.QRect(160, 50, 801, 601))
+        self.verticalLayoutWidget_2 = QtWidgets.QWidget()
+        self.verticalLayoutWidget_2.setGeometry(160, 50, 801, 601)
         self.verticalLayoutWidget_2.setObjectName("verticalLayoutWidget_2")
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.verticalLayoutWidget_2)
         self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
         self.label_2 = QtWidgets.QLabel(self.verticalLayoutWidget_2)
-        self.label_2.setMinimumSize(QtCore.QSize(200, 25))
+        self.label_2.setMinimumSize(QtCore.QSize(0, 25))
         self.label_2.setObjectName("label_2")
         self.verticalLayout_2.addWidget(self.label_2)
-        self.label_2.setStyleSheet("font-size: 25; color: red")
+        # self.label_2.setStyleSheet("font-size: 25; color: red")
         spacerItem1 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.verticalLayout_2.addItem(spacerItem1)
         self.setCentralWidget(self.centralwidget)
         self.pushButton_3.clicked.connect(self.push_button_3_event)
         self.pushButton_2.clicked.connect(self.push_button_2_event)
         self.pushButton.clicked.connect(self.pushButton_event)
-        self.toolButton.clicked.connect(self.toolButton_event)
         self.retranslateUi(self)
         QtCore.QMetaObject.connectSlotsByName(self)
 
@@ -103,7 +103,9 @@ class Ui_Window(QMainWindow):
         self.label.setText(_translate("MainWindow", "搜索："))
         self.pushButton_2.setText(_translate("MainWindow", "电影库"))
         self.pushButton_3.setText(_translate("MainWindow", "新建列表"))
-        self.label_2.setText(_translate("MainWindow", "FUCK　YOU"))
+        self.label_2.setText(_translate("MainWindow", "电影信息"))
+
+
 
     def push_button_3_event(self):                  #新建列表
         Dialog = QtWidgets.QDialog()
@@ -112,15 +114,14 @@ class Ui_Window(QMainWindow):
         Dialog.show()
         Dialog.exec_()
 
+    def push_button_2_event(self):
+        Dialog = Login_in_UI()
+        Dialog.mySingle.connect(self.getData())
 
     def pushButton_event(self):                     #用户登录
         Dialog = Login_in_UI()
         Dialog.mySingle.connect(self.getData)
         Dialog.exec_()
-
-    def toolButton_event(self):
-        global mydb
-        mydb = pymysql.connect('localhost', 'root', '990701', 'spiders')
 
     def getData(self, data):
         print(data)
@@ -131,18 +132,22 @@ class Ui_Window(QMainWindow):
 
     def SendData(self):
         global mydb
-        cursor = mydb.cursor()
-        cursor.execute("SELECT name,daoyan,actor,time,contury from spiders.movies where name = '地久天长'")
-        info = cursor.fetchall()[0]
-        infor = ' '.join(info)
-        self.label_2.setText(infor)
+        print(mydb)
 
-    def push_button_2_event(self):                  # 电影库按钮功能
-        Dialog = QtWidgets.QDialog()
-        ui = movie_info_2()
-        ui.setupUi(Dialog)
-        Dialog.show()
-        Dialog.exec_()
+
+# class MyLabel(QLabel):
+#     def __init__(self,centralwidget):
+# #centralwidget 窗体参数
+#         super().__init__(centralwidget)
+#
+#         self.con(self.push_button_2_event())
+#
+#     def push_button_2_event(self):                  # 电影库按钮功能
+#         Dialog = QtWidgets.QDialog()
+#         ui = movie_info_2()
+#         ui.setupUi(Dialog)
+#         Dialog.show()
+#         Dialog.exec_()
 
 class Login_in_UI(QDialog):
     global mydb
@@ -206,4 +211,10 @@ class Login_in_UI(QDialog):
     def mysql_connect(self):
         global mydb
         mydb = self.ok_click_event()
+
+
+
+
+
+
 
